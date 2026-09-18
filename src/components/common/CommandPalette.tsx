@@ -87,8 +87,8 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({ isOpen, onClose,
               }`}
             >
               <div className="flex items-center gap-3">
-                <div className="w-8 h-8 rounded-xl bg-blue-100 text-google-blue flex items-center justify-center">
-                  <span className="material-symbols-outlined text-[18px]">{item.icon}</span>
+                <div className="w-8 h-8 rounded-xl bg-white border border-google-gray-200 flex items-center justify-center p-1">
+                  <img src={item.imageIcon} alt={item.name} className="w-6 h-6 object-contain" />
                 </div>
                 <div>
                   <div className="text-sm font-medium text-google-gray-900 flex items-center gap-2">

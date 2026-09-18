@@ -14,7 +14,7 @@ export const GeminiAIPage: React.FC<GeminiAIPageProps> = () => {
         {/* Header Hero */}
         <div className="text-center max-w-3xl mx-auto space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 border border-blue-100 text-xs font-semibold text-google-blue">
-            <Sparkles className="w-3.5 h-3.5" />
+            <img src="/assets/images/logo_gemini_2025_color_2x_web_24dp.png" alt="Gemini" className="w-4 h-4 object-contain" />
             <span>Vertex AI & Gemini Enterprise</span>
           </div>
           <h1 className="text-4xl sm:text-6xl font-normal tracking-tight text-google-gray-900 leading-[1.1]">

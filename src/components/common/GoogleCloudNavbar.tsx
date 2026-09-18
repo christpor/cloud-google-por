@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Search, ChevronDown, Menu, X, ArrowRight, ExternalLink } from 'lucide-react';
+import { Search, ChevronDown, Menu, X, ArrowRight } from 'lucide-react';
 import { GOOGLE_CLOUD_PRODUCTS } from '../../data/content';
 
 interface NavbarProps {
@@ -8,8 +8,23 @@ interface NavbarProps {
   onOpenSearch: () => void;
 }
 
+const SIDEBAR_CATEGORIES = [
+  'Featured Products',
+  'AI and Machine Learning',
+  'Business Intelligence',
+  'Compute',
+  'Containers',
+  'Data Analytics',
+  'Databases',
+  'Developer Tools',
+  'Distributed Cloud',
+  'Hybrid and Multicloud',
+  'Industry Specific'
+];
+
 export const GoogleCloudNavbar: React.FC<NavbarProps> = ({ currentPath, onNavigate, onOpenSearch }) => {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+  const [selectedCategory, setSelectedCategory] = useState('Featured Products');
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const handleNav = (path: string) => {
@@ -19,112 +34,131 @@ export const GoogleCloudNavbar: React.FC<NavbarProps> = ({ currentPath, onNaviga
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-white border-b border-google-gray-200 transition-all shadow-xs">
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+    <header className="sticky top-0 z-50 w-full bg-white border-b border-google-gray-200 transition-all">
+      <div className="max-w-[1560px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-[68px]">
           {/* Left Cluster: Google Cloud Wordmark & Logo */}
-          <div className="flex items-center gap-6 xl:gap-8">
+          <div className="flex items-center gap-8">
             <div 
               onClick={() => handleNav('/')}
-              className="cursor-pointer flex items-center gap-2 select-none group"
+              className="cursor-pointer flex items-center gap-2 select-none"
             >
               <img 
                 src="/assets/images/google-cloud-logo-fullcolor.svg" 
                 alt="Google Cloud" 
-                className="h-8 sm:h-9 w-auto"
+                className="h-7 sm:h-8 w-auto"
               />
             </div>
 
             {/* Desktop Navigation Links */}
-            <nav className="hidden lg:flex items-center gap-5 xl:gap-6 text-[14px] font-medium text-google-gray-700">
-              {/* Products Dropdown */}
+            <nav className="hidden lg:flex items-center gap-6 text-[14px] font-normal text-google-gray-700">
+              <button 
+                onClick={() => handleNav('/')}
+                className={`py-2 hover:text-google-blue transition-colors ${currentPath === '/' ? 'text-google-blue font-medium' : ''}`}
+              >
+                Overview
+              </button>
+
+              {/* Solutions Dropdown */}
               <div 
                 className="relative py-2 flex items-center gap-1 cursor-pointer hover:text-google-blue transition-colors"
-                onMouseEnter={() => setActiveDropdown('products')}
-                onMouseLeave={() => setActiveDropdown(null)}
+                onClick={() => setActiveDropdown(activeDropdown === 'solutions' ? null : 'solutions')}
               >
-                <span>Products</span>
-                <ChevronDown className="w-3.5 h-3.5 text-google-gray-500 transition-transform group-hover:rotate-180" />
-
-                {activeDropdown === 'products' && (
-                  <div className="absolute top-full left-0 mt-0.5 w-[560px] bg-white rounded-2xl shadow-xl border border-google-gray-200 p-5 grid grid-cols-2 gap-3 animate-in fade-in zoom-in-95 duration-150">
-                    {GOOGLE_CLOUD_PRODUCTS.map(prod => (
-                      <div
-                        key={prod.id}
-                        onClick={() => handleNav(prod.docsUrl)}
-                        className="p-3 rounded-xl hover:bg-google-gray-50 cursor-pointer transition-colors space-y-1"
-                      >
-                        <div className="flex items-center justify-between">
-                          <span className="text-sm font-medium text-google-gray-900 hover:text-google-blue">{prod.name}</span>
-                          {prod.tag && (
-                            <span className="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-blue-50 text-google-blue border border-blue-100 font-semibold">
-                              {prod.tag}
-                            </span>
-                          )}
-                        </div>
-                        <p className="text-xs text-google-gray-500 line-clamp-2 leading-relaxed">{prod.desc}</p>
-                      </div>
-                    ))}
-                  </div>
-                )}
+                <span className={currentPath.includes('solutions') ? 'text-google-blue font-medium' : ''}>Solutions</span>
+                <ChevronDown className={`w-3.5 h-3.5 transition-transform ${activeDropdown === 'solutions' ? 'rotate-180 text-google-blue' : 'text-google-gray-500'}`} />
               </div>
 
-              {/* Solutions */}
-              <button 
-                onClick={() => handleNav('/solutions/infrastructure-modernization')}
-                className={`py-2 hover:text-google-blue transition-colors ${currentPath.includes('solutions') ? 'text-google-blue font-semibold' : ''}`}
+              {/* Products Mega-Menu Button */}
+              <div 
+                className="relative py-2 flex items-center gap-1 cursor-pointer hover:text-google-blue transition-colors"
+                onClick={() => setActiveDropdown(activeDropdown === 'products' ? null : 'products')}
               >
-                Solutions
-              </button>
+                <span className={activeDropdown === 'products' ? 'text-google-blue font-medium' : ''}>Products</span>
+                <ChevronDown className={`w-3.5 h-3.5 transition-transform ${activeDropdown === 'products' ? 'rotate-180 text-google-blue' : 'text-google-gray-500'}`} />
+              </div>
 
               {/* Pricing */}
               <button 
                 onClick={() => handleNav('/pricing/list')}
-                className={`py-2 hover:text-google-blue transition-colors ${currentPath === '/pricing/list' ? 'text-google-blue font-semibold' : ''}`}
+                className={`py-2 hover:text-google-blue transition-colors ${currentPath === '/pricing/list' ? 'text-google-blue font-medium' : ''}`}
               >
                 Pricing
               </button>
 
-              {/* Documentation */}
-              <button 
-                onClick={() => handleNav('/docs')}
-                className={`py-2 hover:text-google-blue transition-colors ${currentPath === '/docs' ? 'text-google-blue font-semibold' : ''}`}
+              {/* Resources */}
+              <div 
+                className="relative py-2 flex items-center gap-1 cursor-pointer hover:text-google-blue transition-colors"
+                onClick={() => setActiveDropdown(activeDropdown === 'resources' ? null : 'resources')}
               >
-                Documentation
+                <span>Resources</span>
+                <ChevronDown className="w-3.5 h-3.5 text-google-gray-500" />
+              </div>
+
+              {/* Contact Us */}
+              <button 
+                onClick={() => handleNav('/solutions/risk-and-compliance-as-code')}
+                className="py-2 text-google-blue hover:text-google-blue-hover font-medium transition-colors"
+              >
+                Contact us
               </button>
             </nav>
           </div>
 
-          {/* Right Cluster: Search, Console, CTA */}
-          <div className="flex items-center gap-3 sm:gap-4">
-            {/* Quick Product Search Pill */}
+          {/* Right Cluster: Search, Docs, Support, Console, Launcher, Avatar */}
+          <div className="flex items-center gap-3 sm:gap-5">
+            {/* Quick Product Search */}
             <button
               onClick={onOpenSearch}
-              className="hidden sm:flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-google-gray-50 hover:bg-google-gray-100 border border-google-gray-300 text-google-gray-500 text-xs transition-all active:scale-95"
+              className="p-2 rounded-full hover:bg-google-gray-100 text-google-gray-600 transition-colors"
+              title="Search (⌘K)"
             >
-              <Search className="w-3.5 h-3.5 text-google-gray-500" />
-              <span>Search products (⌘K)</span>
+              <Search className="w-4 h-4" />
             </button>
 
-            {/* Console Link */}
+            <button 
+              onClick={() => handleNav('/docs')}
+              className="hidden md:inline-block text-xs font-medium text-google-gray-700 hover:text-google-blue"
+            >
+              Docs
+            </button>
+
+            <a 
+              href="https://cloud.google.com/support" 
+              target="_blank" 
+              rel="noreferrer"
+              className="hidden md:inline-block text-xs font-medium text-google-gray-700 hover:text-google-blue"
+            >
+              Support
+            </a>
+
+            {/* Console Link (Blue in Google UI) */}
             <a
               href="https://console.cloud.google.com"
               target="_blank"
               rel="noreferrer"
-              className="hidden md:inline-flex items-center gap-1 text-xs font-medium text-google-gray-700 hover:text-google-blue px-3 py-1.5"
+              className="text-xs font-semibold text-google-blue hover:text-google-blue-hover px-1 py-1"
             >
-              <span>Console</span>
-              <ExternalLink className="w-3 h-3 text-google-gray-500" />
+              Console
             </a>
 
-            {/* Start Free CTA */}
-            <button
-              onClick={() => handleNav('/pricing/list')}
-              className="px-5 py-2.5 rounded-full text-xs font-semibold bg-google-blue hover:bg-google-blue-hover text-white shadow-xs transition-all flex items-center gap-1.5 active:scale-95"
+            {/* 9 Dots App Launcher */}
+            <button 
+              className="hidden sm:flex items-center justify-center p-2 rounded-full hover:bg-google-gray-100 text-google-gray-600"
+              title="Google apps"
             >
-              <span>Start free</span>
-              <ArrowRight className="w-3.5 h-3.5" />
+              <div className="grid grid-cols-3 gap-[2.5px] w-3.5 h-3.5">
+                {[...Array(9)].map((_, i) => (
+                  <span key={i} className="w-[3px] h-[3px] rounded-full bg-google-gray-600"></span>
+                ))}
+              </div>
             </button>
+
+            {/* Google Account Avatar Circle */}
+            <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-blue-500 via-red-500 to-yellow-400 p-[1.5px] cursor-pointer shadow-xs">
+              <div className="w-full h-full rounded-full bg-white flex items-center justify-center text-xs font-bold text-google-gray-800">
+                C
+              </div>
+            </div>
 
             {/* Mobile Hamburger */}
             <button
@@ -136,6 +170,138 @@ export const GoogleCloudNavbar: React.FC<NavbarProps> = ({ currentPath, onNaviga
           </div>
         </div>
       </div>
+
+      {/* 2026 MEGA-MENU FOR "PRODUCTS" (Direct parity with Screencast frame 012) */}
+      {activeDropdown === 'products' && (
+        <div className="absolute top-full left-0 w-full bg-white border-b border-google-gray-200 shadow-2xl z-50 animate-in fade-in slide-in-from-top-1 duration-150">
+          <div className="max-w-[1560px] mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div className="grid grid-cols-12 gap-8">
+              
+              {/* Left Column: Sidebar Categories */}
+              <div className="col-span-3 border-r border-google-gray-200 pr-6 space-y-1">
+                {SIDEBAR_CATEGORIES.map(cat => (
+                  <button
+                    key={cat}
+                    onClick={() => setSelectedCategory(cat)}
+                    className={`w-full text-left px-4 py-2.5 rounded-full text-xs font-medium transition-all ${
+                      selectedCategory === cat
+                        ? 'bg-google-gray-100 text-google-gray-900 font-semibold'
+                        : 'text-google-gray-600 hover:bg-google-gray-50 hover:text-google-gray-900'
+                    }`}
+                  >
+                    {cat}
+                  </button>
+                ))}
+
+                <div className="pt-4">
+                  <button
+                    onClick={() => handleNav('/pricing/list')}
+                    className="w-full text-left px-4 py-2.5 rounded-full text-xs font-medium text-google-gray-700 border border-google-gray-300 hover:border-google-blue hover:text-google-blue transition-colors"
+                  >
+                    See all products (100+)
+                  </button>
+                </div>
+              </div>
+
+              {/* Right Column: 3-Column Product Grid with Authentic SVG/PNG Icons */}
+              <div className="col-span-9 space-y-6">
+                <div className="flex items-center justify-between pb-2 border-b border-google-gray-100">
+                  <h3 className="text-2xl font-normal text-google-gray-900 tracking-tight">{selectedCategory}</h3>
+                  <button 
+                    onClick={() => setActiveDropdown(null)}
+                    className="p-1.5 rounded-full hover:bg-google-gray-100 text-google-gray-500"
+                  >
+                    <X className="w-5 h-5" />
+                  </button>
+                </div>
+
+                <div className="grid grid-cols-3 gap-6">
+                  {GOOGLE_CLOUD_PRODUCTS.map(prod => (
+                    <div
+                      key={prod.id}
+                      onClick={() => handleNav(prod.docsUrl)}
+                      className="group p-3 rounded-2xl hover:bg-google-gray-50 transition-all cursor-pointer flex items-start gap-3.5"
+                    >
+                      <img 
+                        src={prod.imageIcon} 
+                        alt={prod.name} 
+                        className="w-8 h-8 shrink-0 object-contain mt-0.5" 
+                      />
+                      <div className="space-y-1">
+                        <div className="flex items-center gap-1.5">
+                          <h4 className="text-sm font-medium text-google-gray-900 group-hover:text-google-blue transition-colors">
+                            {prod.name}
+                          </h4>
+                        </div>
+                        <p className="text-xs text-google-gray-500 leading-relaxed line-clamp-2">
+                          {prod.desc}
+                        </p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                {/* Bottom Prompt Link */}
+                <div className="pt-4 border-t border-google-gray-100 flex items-center justify-between text-xs text-google-gray-500">
+                  <span>Not seeing what you're looking for?</span>
+                  <button 
+                    onClick={() => handleNav('/pricing/list')}
+                    className="font-medium text-google-blue hover:underline flex items-center gap-1"
+                  >
+                    <span>See all products (100+)</span>
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Solutions Dropdown */}
+      {activeDropdown === 'solutions' && (
+        <div className="absolute top-full left-0 w-full bg-white border-b border-google-gray-200 shadow-2xl z-50 animate-in fade-in duration-150">
+          <div className="max-w-[1560px] mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div className="flex items-center justify-between pb-4 border-b border-google-gray-100 mb-6">
+              <h3 className="text-2xl font-normal text-google-gray-900">Application Modernization</h3>
+              <button onClick={() => setActiveDropdown(null)} className="p-1 rounded-full hover:bg-google-gray-100">
+                <X className="w-5 h-5 text-google-gray-500" />
+              </button>
+            </div>
+            <div className="grid grid-cols-4 gap-6">
+              <div 
+                onClick={() => handleNav('/solutions/infrastructure-modernization')}
+                className="p-4 rounded-2xl hover:bg-google-gray-50 cursor-pointer space-y-1"
+              >
+                <h4 className="text-sm font-medium text-google-gray-900 hover:text-google-blue">CAMP</h4>
+                <p className="text-xs text-google-gray-500">Program that uses DORA to improve your software delivery capabilities.</p>
+              </div>
+              <div 
+                onClick={() => handleNav('/solutions/infrastructure-modernization')}
+                className="p-4 rounded-2xl hover:bg-google-gray-50 cursor-pointer space-y-1"
+              >
+                <h4 className="text-sm font-medium text-google-gray-900 hover:text-google-blue">Modernize Traditional Apps</h4>
+                <p className="text-xs text-google-gray-500">Analyze, categorize, and get started with cloud migration on traditional workloads.</p>
+              </div>
+              <div 
+                onClick={() => handleNav('/solutions/infrastructure-modernization')}
+                className="p-4 rounded-2xl hover:bg-google-gray-50 cursor-pointer space-y-1"
+              >
+                <h4 className="text-sm font-medium text-google-gray-900 hover:text-google-blue">Migrate from PaaS</h4>
+                <p className="text-xs text-google-gray-500">Tools for moving your existing containers into Google managed container services.</p>
+              </div>
+              <div 
+                onClick={() => handleNav('/solutions/infrastructure-modernization')}
+                className="p-4 rounded-2xl hover:bg-google-gray-50 cursor-pointer space-y-1"
+              >
+                <h4 className="text-sm font-medium text-google-gray-900 hover:text-google-blue">Platform Engineering</h4>
+                <p className="text-xs text-google-gray-500">Comprehensive suite of managed services and Golden Paths to build, manage, and scale.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Mobile Drawer */}
       {mobileOpen && (

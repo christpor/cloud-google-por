@@ -3,6 +3,7 @@ import Lenis from 'lenis';
 import { GoogleCloudNavbar } from './components/common/GoogleCloudNavbar';
 import { GoogleCloudFooter } from './components/common/GoogleCloudFooter';
 import { CommandPalette } from './components/common/CommandPalette';
+import { FloatingAskBar } from './components/common/FloatingAskBar';
 import { HomePage } from './pages/HomePage';
 import { GeminiAIPage } from './pages/GeminiAIPage';
 import { BigQueryPage } from './pages/BigQueryPage';
@@ -15,7 +16,7 @@ export const App: React.FC = () => {
   // Dynamic document title update per route
   useEffect(() => {
     const titles: Record<string, string> = {
-      '/': "AI and Cloud Computing Services | Google Cloud",
+      '/': "Make work less work | Google Cloud",
       '/ai/gemini': "Gemini Enterprise AI & Vertex AI | Google Cloud",
       '/bigquery': "BigQuery: Enterprise Cloud Data Warehouse | Google Cloud",
       '/pricing/list': "Pricing per Product & $300 Free Trial | Google Cloud",
@@ -72,6 +73,10 @@ export const App: React.FC = () => {
     window.scrollTo(0, 0);
   };
 
+  const handleAskPrompt = (_query: string) => {
+    navigate('/ai/gemini');
+  };
+
   const renderPage = () => {
     if (currentPath === '/ai/gemini') {
       return <GeminiAIPage onNavigate={navigate} />;
@@ -86,7 +91,7 @@ export const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-white text-google-gray-900 selection:bg-google-blue/10 selection:text-google-blue">
+    <div className="min-h-screen flex flex-col bg-white text-google-gray-900 selection:bg-google-blue/10 selection:text-google-blue relative">
       <GoogleCloudNavbar 
         currentPath={currentPath}
         onNavigate={navigate}
@@ -96,6 +101,9 @@ export const App: React.FC = () => {
       <main className="flex-1">
         {renderPage()}
       </main>
+
+      {/* 2026 Floating Prompt Capsule (Direct parity with Screencast frame 004) */}
+      <FloatingAskBar onAsk={handleAskPrompt} />
 
       <GoogleCloudFooter onNavigate={navigate} />
 
