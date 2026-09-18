@@ -1,0 +1,143 @@
+{
+  "url": "https://cloud.google.com/solutions/risk-and-compliance-as-code",
+  "route": "/solutions/risk-and-compliance-as-code",
+  "route_slug": "solutions/risk-and-compliance-as-code",
+  "title": "Risk and Compliance as Code | Google Cloud",
+  "description": "Solution to make your governance, risk, and compliance function agile and cloud-native",
+  "hero_h1": "Risk and compliance as code (RCaC)",
+  "sections": [
+    {
+      "heading": "Codify infrastructure and policies, and automate routine compliance checks",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Prevent non-compliance",
+      "paragraphs": [
+        "Prevent non-compliance by asserting infrastructure and policies as code for easy onboarding on Google Cloud.",
+        "Establish secure guardrails from the get-go via security blueprints and Assured Workloads."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Detect drift and non-compliance",
+      "paragraphs": [
+        "Detect non-compliance via Security Command Center, notifying stakeholders when offending infrastructure is identified.",
+        "Reduce risk with intelligent automation, control mapping, and continuous assessments."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Transfer risk",
+      "paragraphs": [
+        "Once on Google Cloud, you can leverage Risk Manager to continuously evaluate risk and our Risk Protection Program to qualify for cyber insurance."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Modernize compliance by automating routine checks to reduce your audit fatigue",
+      "paragraphs": [
+        "As more regulations come into existence and organizations migrate to the cloud, the risk of non-compliance and associated impact increases."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Continuous compliance",
+      "paragraphs": [
+        "Adopt security controls and compliance requirements in a codified format using our security blueprints and Assured Workloads .",
+        "Continuously monitor for security and compliance drift via Security Command Center ."
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/yWZL0yTh3LGXC6ny5YvtPIo3wfBK9ioFeQB96D-sieT-jhyOJr5y5h8koIMR6g-AMrHhWfYqXQR7.png"
+      ]
+    },
+    {
+      "heading": "Shared fate",
+      "paragraphs": [
+        "Move from shared responsibility to shared fate by partnering with Google. Deploy and run securely on our platform and become risk aware. This means providing holistic capabilities throughout your cloud journey. Reduce security risk and gain access to a cyber insurance policy designed exclusively for Google Cloud customers via our Risk Protection Program .",
+        "Ready to get started? Contact us"
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/06de8d314f730a12c413178a13742d5043f75b81e554e992455ea15ec6aa6de7.svg"
+      ]
+    },
+    {
+      "heading": "Compliance in DevOps culture",
+      "paragraphs": [
+        "Learn how to address common compliance requirements in a cloud-native way.",
+        "Our large ecosystem of trusted industry partners can help you simplify your complex risk and compliance journey.",
+        "Related services"
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/video-icon.svg",
+        "https://www.gstatic.com/bricks/image/W6LrcKdHXvymUortaGe1zKr6eWRFyHQ3V32Fm-6llxa75i8ktoL09dwB4HG6ozmBkG4vrcFhOTTN.png",
+        "https://www.gstatic.com/bricks/image/kfLc0wB5tcqBC28RO9Uq4JT0YEojYt52xERtHiZFEbAtGrJ5UwdOEvBDkS6Va4YQmgUHYXUIdfQ.png"
+      ]
+    },
+    {
+      "heading": "Integrations and products",
+      "paragraphs": [
+        "Security Command Center Obtain compliance reports to help ensure your resources are meeting compliance requirements. Risk Protection Program Reduce security risk and gain access to an exclusive cyber insurance policy designed exclusively for Google Cloud customers. Documentation"
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/e913286b9779761bc3fba1f65d5c2ae943f369987b79a44207a57381bc172e02.svg",
+        "https://www.gstatic.com/bricks/image/2f556c6b2d24886494e8e7ed770a089cc4a60499803add84c3170ccba8392860.svg",
+        "https://www.gstatic.com/bricks/image/ca57300b70d3707983b3bdf2543de11cdc2ad1af997f59898240dafcc166dd28.svg"
+      ]
+    },
+    {
+      "heading": "Explore how to get started on your modernized compliance management journey",
+      "paragraphs": [
+        "With the changing risk landscape, the aim of a modern compliance function is to help an organization stay compliant as well as modernize itself. Read our documentation and best practices on how to get started."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Assuring compliance in the cloud",
+      "paragraphs": [
+        "The aim of a modern compliance function is to help an organization stay compliant as well as modernize itself. Read on how to get started."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Secure foundation blueprint to adopt initial configurations",
+      "paragraphs": [
+        "Resources, including code and templates, that can be used to deploy cloud resources in recommended configurations."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Setting up a cloud-native PCI DSS environment using GKE",
+      "paragraphs": [
+        "The PCI on GKE blueprint contains a set of Terraform configurations and scripts that demonstrate how to bootstrap a PCI environment in Google Cloud."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Setting up a FedRAMP environment on Google Cloud",
+      "paragraphs": [
+        "A quickstart to deploy a three-tiered application aligning to FedRAMP requirements."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Not seeing what you’re looking for?",
+      "paragraphs": [
+        "Tell us what you’re solving for. A Google Cloud expert will help you find the best solution."
+      ],
+      "images": [
+        "https://www.gstatic.com/cgc/google-cloud-logo-fullcolor.svg",
+        "https://www.gstatic.com/cloud/images/navigation/forward.svg",
+        "https://www.gstatic.com/cloud/images/navigation/retail.svg"
+      ]
+    }
+  ],
+  "ctas": [
+    "Contact us",
+    "Console"
+  ],
+  "stylesheets": [
+    "https://fonts.googleapis.com/css2?family=Google+Sans+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700"
+  ],
+  "motion_libraries": []
+}

@@ -1,0 +1,72 @@
+{
+  "url": "https://cloud.google.com/config-connector/docs/overview",
+  "route": "/config-connector/docs/overview",
+  "route_slug": "config-connector/docs/overview",
+  "title": "Config Connector overview | Google Cloud Documentation",
+  "description": "",
+  "hero_h1": "Config Connector overview",
+  "sections": [
+    {
+      "heading": "How Config Connector works",
+      "paragraphs": [
+        "Config Connector provides a collection of Kubernetes Custom Resource Definitions (CRDs) and controllers. The Config Connector CRDs allow Kubernetes to create and manage Google Cloud resources when you configure and apply Objects to your cluster.",
+        "For Config Connector CRDs to function correctly, Config Connector deploys Pods to your nodes that have elevated RBAC permissions, such as the ability to create, delete, get, and list CustomResourceDefinitions (CRDs). These permissions are required for Config Connector to create and reconcile Kubernetes resources.",
+        "When you configure and apply objects to your cluster, Config Connector reconciles the configured state against Google Cloud APIs asynchronously. Reconciliation executes using the identity of the Config Connector IAM service account, not the identity of the human user or service account that submitted the manifest to Kubernetes.",
+        "The ability to create Kubernetes resources in a Config Connector namespace (in namespaced mode) or cluster (in cluster mode) grants authorization to change cloud resources by using Config Connector's identity. This mechanism is similar to CI/CD pipelines, where the ability to merge code into a repository also allows that code to deploy by using the pipeline's identity. The security of the system depends on tightly controlling who can create those objects, such as by having a Kubernetes controller apply Config Connector resources from a trusted code repository.",
+        "This approach delegates authority for broad cloud access management to Config Connector, while restricting individual developer access through repository source control. This is more secure than granting every developer access to modify cloud resources directly."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Customizing Config Connector's behavior",
+      "paragraphs": [
+        "Config Connector provides additional features beyond creating resources. For example, you can manage existing Google Cloud resources , and use Kubernetes Secrets to provide sensitive data, such as passwords, to your resources. For more information, see the list of how-to guides .",
+        "To learn more about how Config Connector uses custom resources, see About Config Connector CRDs . For the full list of Google Cloud resources supported by Config Connector, see the Config Connector reference documentation ."
+      ],
+      "images": []
+    },
+    {
+      "heading": "What's next",
+      "paragraphs": [
+        "Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License , and code samples are licensed under the Apache 2.0 License . For details, see the Google Developers Site Policies . Java is a registered trademark of Oracle and/or its affiliates.",
+        "Last updated 2026-09-16 UTC."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Products and pricing",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Support",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Resources",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Engage",
+      "paragraphs": [],
+      "images": [
+        "https://www.gstatic.com/devrel-devsite/prod/v826fb839c0b38141980abf47020a61dc3ff340cbde624f57178f4c01d184ef87/clouddocs/images/lockup-google-for-developers.svg"
+      ]
+    }
+  ],
+  "ctas": [
+    "Skip to main content",
+    "close",
+    "Console",
+    "Start free"
+  ],
+  "stylesheets": [
+    "https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700&display=swap",
+    "https://fonts.googleapis.com/css2?family=Material+Icons&family=Material+Symbols+Outlined&display=block",
+    "https://www.gstatic.com/devrel-devsite/prod/v826fb839c0b38141980abf47020a61dc3ff340cbde624f57178f4c01d184ef87/clouddocs/css/app.css",
+    "https://www.gstatic.com/devrel-devsite/prod/v826fb839c0b38141980abf47020a61dc3ff340cbde624f57178f4c01d184ef87/clouddocs/css/dark-theme.css"
+  ],
+  "motion_libraries": []
+}

@@ -1,0 +1,89 @@
+{
+  "url": "https://cloud.google.com/ai/gemini",
+  "route": "/ai/gemini",
+  "route_slug": "ai/gemini",
+  "title": "Google AI Studio vs. Gemini Enterprise Agent Platform vs. Gemini Enterprise app | Google Cloud",
+  "description": "Compare the different ways you can build with Gemini models and use Gemini as your AI assistant at work.",
+  "hero_h1": "The Gemini era for developers and businesses",
+  "sections": [
+    {
+      "heading": "BUILD WITH GEMINI MODELS:",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Google AI Studio",
+      "paragraphs": [
+        "Experiment, prototype, and deploy. Google AI Studio is the fast path for developers, students, and researchers who want to try Gemini models and get started building with the Gemini Developer API."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Gemini Enterprise Agent Platform",
+      "paragraphs": [
+        "Build AI agents and integrate generative AI into your applications. Google Cloud offers Agent Platform, a single, fully-managed, unified development platform for using Gemini models and other third party models at scale."
+      ],
+      "images": []
+    },
+    {
+      "heading": "USE GEMINI IN YOUR BUSINESS:",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Gemini Enterprise app",
+      "paragraphs": [
+        "Bring the best of Google AI to every employee . Gemini Enterprise app empowers teams to discover, create, share, and run AI agents all in one secure platform."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Google Workspace with Gemini",
+      "paragraphs": [
+        "Your AI-powered assistant built right into Gmail, Docs, Slides, Sheets, and more, to help boost your productivity and creativity.",
+        "Start using Gemini with Google AI Studio , a web-based tool that lets you prototype, run prompts right in your browser. Google AI Studio is the fast path for developers, students, and researchers who want to try Gemini models and get started building with the Gemini Developer API.",
+        "Get your no cost Gemini API key",
+        "Gemini Developer API quickstart",
+        "Enterprise customers and developers can experience Google's largest and most capable AI models through the Gemini API in Agent Platform . Agent Platform makes it possible to discover, customize, tune, and deploy Gemini models at scale, empowering developers to build new and differentiated applications that can process information across text, code, images, and video."
+      ],
+      "images": [
+        "https://www.gstatic.com/cgc/google-cloud-logo-fullcolor.svg",
+        "https://www.gstatic.com/cloud/images/navigation/forward.svg",
+        "https://www.gstatic.com/cloud/images/navigation/retail.svg"
+      ]
+    },
+    {
+      "heading": "Why Google",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Products and pricing",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Solutions",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Resources",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Engage",
+      "paragraphs": [],
+      "images": []
+    }
+  ],
+  "ctas": [
+    "Contact us",
+    "Console"
+  ],
+  "stylesheets": [
+    "https://fonts.googleapis.com/css2?family=Google+Sans+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700"
+  ],
+  "motion_libraries": []
+}

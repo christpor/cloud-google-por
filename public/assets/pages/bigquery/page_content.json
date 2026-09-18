@@ -1,0 +1,182 @@
+{
+  "url": "https://cloud.google.com/bigquery",
+  "route": "/bigquery",
+  "route_slug": "bigquery",
+  "title": "BigQuery | AI data platform | EDW",
+  "description": "BigQuery is the autonomous data and AI platform, automating the entire data life cycle so you can go from data to AI to action faster.",
+  "hero_h1": "BigQuery",
+  "sections": [
+    {
+      "heading": "From data warehouse to autonomous data and AI platform",
+      "paragraphs": [
+        "BigQuery is the autonomous data to AI platform, automating the entire data life cycle, from ingestion to AI-driven insights, so you can go from data to AI to action faster.",
+        "Gemini in BigQuery features are now included in BigQuery pricing models.",
+        "Store 10 GiB of data and run up to 1 TiB of queries for free per month. New customers also get $300 in free credits to try BigQuery and other Google Cloud products."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Product highlights",
+      "paragraphs": [
+        "AI-powered conversational and agentic experiences",
+        "Unified data and AI platform for analytics on multimodal data",
+        "Flexible with low-cost ML and interoperability with open source",
+        "BigQuery offers up to 54% lower TCO versus cloud-based alternatives"
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/d1a2346b57ea1c97bc4f8f01f289616f45c33d66bcd5b1372252fce3533cae4a.svg"
+      ]
+    },
+    {
+      "heading": "Built-in predictive analytics and AI inferencing",
+      "paragraphs": [
+        "Connect your data to AI with BigQuery AI . Train, evaluate, and deploy predictive analytics models directly within BigQuery using SQL. Easily integrate your models with Gemini Enterprise Agent Platform for advanced MLOps. Use generative AI in your workflows with AI functions for text summarization, sentiment analysis, and data enrichment. Beyond traditional tables, use BigQuery Graph to uncover complex relationships and patterns in your data. Build sophisticated context-retrieval and RAG applications with embeddings and vector, text, or hybrid search to find information based on meaning, not just keywords.",
+        "From raw data to inferencing in the fast lane 1:49"
+      ],
+      "images": [
+        "https://img.youtube.com/vi/vr-PK1_4QKE/hqdefault.jpg"
+      ]
+    },
+    {
+      "heading": "Agentic experience for all data teams",
+      "paragraphs": [
+        "Get AI-powered assistance and automation for all data users across all analytical workflows. Automate data preparation, error detection, transformations, and pipeline building with Data Engineering Agent . Generate a detailed plan and run all aspects of data science including data loading, feature engineering, model training and evaluation with a simple prompt in the Data Science Agent . Democratize insights with the Conversational Analytics Agent , allowing anyone to ask complex questions in plain language and receive grounded, context-aware answers.",
+        "AI agents for data teams 41:33"
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/3be6a76d-891c-434f-a7c5-12c23318f996.jpg"
+      ]
+    },
+    {
+      "heading": "Agent development and analysis tools",
+      "paragraphs": [
+        "Embed natural-language query functionality in your workflows using Conversational Analytics API . Publish your agent in Gemini Enterprise app, enabling all users to gain instant insights by simply asking questions in natural language. Manage data assets, run queries, and deploy data pipelines directly from your preferred IDE using the OSS Data Agent Kit . Stream detailed agent interactions to BigQuery for performance and cost optimization with a single line of code using BigQuery agent ops plugins for frameworks like ADK, LangGraph, and UCP.",
+        "Ground your agents with enterprise data 3:30"
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/6f8cc249-d4a1-4ba9-8320-9adb4d436981.jpg"
+      ]
+    },
+    {
+      "heading": "BigQuery scale and performance for Apache Iceberg",
+      "paragraphs": [
+        "Bring the best of BigQuery performance to your Iceberg data by enabling read/write interoperability across BigQuery, Google Cloud Managed Service for Apache Spark and other OSS engines with zero data movement. Get real-time insights via high-throughput streaming and simplify pipelines with multi-statement transactions and CDC. Google Cloud Lakehouse automates routine Iceberg maintenance—like compaction and clustering—to optimize price-performance and eliminate manual overhead."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Automate governance and give context to agents",
+      "paragraphs": [
+        "Get built-in context with key capabilities such as automatic metadata harvesting, data profiling, data quality and lineage powered by Knowledge Catalog . Enable your agents to retrieve holistic context from your enterprise data. Through semantic search, Context APIs, and MCP tools, agents can instantly discover data assets, extract pre-generated, and enrich metadata."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Built for enterprise scale and efficiency",
+      "paragraphs": [
+        "BigQuery’s unique architecture decouples storage and compute for petabyte-scale analysis while optimizing costs with compressed storage , compute autoscaling , flexible pricing , and more. BigQuery employs a vast set of Google infrastructure technologies like Borg , Colossus , Jupiter , and Dremel . While innovations like fluid scaling enable true per-second billing, advanced runtime and history-based optimizations accelerate native and Iceberg workload processing without code or schema changes."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Real-time analytics with streaming data pipelines",
+      "paragraphs": [
+        "Use Managed Service for Apache Kafka to build and run real-time streaming applications. From SQL-based easy streaming with BigQuery continuous queries , popular open source Kafka platforms, and advanced multimodal data streaming and ML with Dataflow, including support for Iceberg, you can make real-time data and AI a reality."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Managed disaster recovery and observability",
+      "paragraphs": [
+        "Cross-region disaster recovery offers managed failover, backups, and data recovery with enhanced observability and intersection routing. BigQuery operational health monitoring provides organization-wide environment views , now featuring agent-powered observability for turnkey troubleshooting. Additionally, agent-ready security via Security Center offers unified, fine-grained access control. These features ensure flexible recovery, better visibility, and robust security for your data operations."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Data science",
+      "paragraphs": [
+        "Simplify data to AI workflows",
+        "Streamline end-to-end data science workflows on Colab Enterprise notebooks with built-in agents or open source Python libraries through BigQuery DataFrames . Bring your preferred processing engine—SQL, serverless Spark , and additional open source frameworks. Train, evaluate, and deploy ML models directly within BigQuery or use pre-trained models like TimesFM using SQL. Conveniently store features for models built and used in BigQuery. Version, evaluate, and deploy the models by registering them in Gemini Enterprise Agent Platform for online prediction by using a single interface.",
+        "Perform time series forecasting with a multivariate model",
+        "Improve model performance with hyperparameter tuning",
+        "Get data insights from a contribution analysis model using a summable metric"
+      ],
+      "images": [
+        "https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/build/wght100fill1/20px.svg",
+        "https://www.gstatic.com/bricks/image/3F74UarzeBKKKND8WRD8unc1SyVytFjn5ZxZ1cpheAyo3WL_xGM1YfzjoNeR_YsqA3dSC94tOo67.webp",
+        "https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/build/wght100fill1/20px.svg"
+      ]
+    },
+    {
+      "heading": "Unstructured data analytics",
+      "paragraphs": [
+        "Apply generative AI to your data",
+        "Connect Google and partner AI models directly to your multimodal data in BigQuery through simple SQL functions. Unlock deeper, semantic understanding from images, PDFs, audio, and video using generative AI functions . Automate routine tasks, such as classification, ordering, or filtering using purpose-built managed AI functions and perform specific tasks such as audio transcription or machine translation using Cloud AI APIs. Analyze unstructured data in Cloud Storage using object tables with remote functions or perform inference using BigQuery AI functions.",
+        "Analyze images with a Gemini",
+        "Parse PDFs in a retrieval-augmented generation pipeline",
+        "Perform semantic analysis with managed AI functions"
+      ],
+      "images": [
+        "https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/build/wght100fill1/20px.svg",
+        "https://www.gstatic.com/bricks/image/1539c89f-4482-4d71-bf98-ae3c573ef387.jpg",
+        "https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/build/wght100fill1/20px.svg"
+      ]
+    },
+    {
+      "heading": "Data warehouse migration",
+      "paragraphs": [
+        "Migrate data warehouses to BigQuery",
+        "Solve for today’s analytics demands and tomorrow's AI use cases by migrating your data warehouse to BigQuery. Streamline your migration path from Netezza, Oracle, Redshift, Teradata, Snowflake, or Databricks to BigQuery using the free, AI-powered and fully managed BigQuery Migration Service.",
+        "Get started with a free migration assessment",
+        "Translate queries with an interactive SQL translator",
+        "See if you qualify for migration incentives"
+      ],
+      "images": [
+        "https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/build/wght100fill1/20px.svg",
+        "https://www.gstatic.com/bricks/image/dfaed0a0-efe0-4d05-8db6-bf18c1e33018.jpg",
+        "https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/build/wght100fill1/20px.svg"
+      ]
+    },
+    {
+      "heading": "Data integration and ELT",
+      "paragraphs": [
+        "Bring any data into BigQuery",
+        "ELT is the recommended pattern for bringing data into BigQuery. There are many tools that offer flexibility for data integration. For batch load, use BigQuery Data Transfer Service (DTS) to automate the bulk load of data from supported data sources into BigQuery. For streaming load, Pub/Sub BigQuery subscriptions write Pub/Sub messages to an existing BigQuery table as they are received. For Change data capture (CDC), Datastream enables non-intrusive change data capture (CDC) from databases into BigQuery. Finally, you can federate to a number of external data sources that don't require data movement.",
+        "Google Cloud named a Leader in the 2024 Gartner Magic Quadrant for Data Integration Tools",
+        "AI-assisted data preparation in BigQuery",
+        "Read documentation for loading data into BigQuery"
+      ],
+      "images": [
+        "https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/build/wght100fill1/20px.svg",
+        "https://www.gstatic.com/bricks/image/19bd8401-f0b1-4100-a625-28bfc5fe7f05.png",
+        "https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/build/wght100fill1/20px.svg"
+      ]
+    },
+    {
+      "heading": "Real-time analytics",
+      "paragraphs": [
+        "Event-driven analysis",
+        "Respond to business events in real time with event-driven analysis. Built-in streaming capabilities like SQL-based continuous queries automatically ingest streaming data and make it immediately available to query. This allows you to stay agile and make business decisions based on the freshest data. Or use Dataflow to enable fast, simplified streaming data pipelines for a comprehensive solution.",
+        "SQL-based streaming with continuous queries",
+        "Real-time data with BigQuery Pub/Sub subscriptions",
+        "Real-time analytics database solutions with BigQuery and Bigtable"
+      ],
+      "images": [
+        "https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/build/wght100fill1/20px.svg",
+        "https://www.gstatic.com/bricks/image/590bae7ee39fd931767c925e8e0139c712c4eda70686ff45ea360c19a12fb2fb.svg",
+        "https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/build/wght100fill1/20px.svg"
+      ]
+    }
+  ],
+  "ctas": [
+    "View all features",
+    "Generate solution",
+    "Expand all",
+    "Contact us",
+    "Console"
+  ],
+  "stylesheets": [
+    "https://fonts.googleapis.com/css2?family=Google+Sans+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700"
+  ],
+  "motion_libraries": []
+}

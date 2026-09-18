@@ -1,0 +1,131 @@
+{
+  "url": "https://cloud.google.com/products/managed-lustre",
+  "route": "/products/managed-lustre",
+  "route_slug": "products/managed-lustre",
+  "title": "Managed Lustre | Google Cloud",
+  "description": "Accelerate HPC and AI training and serving with Managed Lustre, Google's highest performance, POSIX-compliant, parallel file system.",
+  "hero_h1": "Google Cloud Managed Lustre",
+  "sections": [
+    {
+      "heading": "High performance parallel file system",
+      "paragraphs": [
+        "Accelerate HPC and AI training and serving with Google's highest performance, POSIX-compliant, parallel file system."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Product highlights",
+      "paragraphs": [
+        "High throughput, low latency, and high concurrency",
+        "Persistent storage with performance that scales with capacity, up to multiple PBs",
+        "Built on architecture that is optimized for AI/ML and HPC workloads"
+      ],
+      "images": []
+    },
+    {
+      "heading": "Accelerate AI",
+      "paragraphs": [
+        "To meet the demands of next-generation AI, we are increasing the scale by 10x. By boosting Managed Lustre performance to 10 TB/s, we’ve cleared the path for massive AI/ML workloads, accelerating both training and inference pipelines significantly."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Dynamic tier",
+      "paragraphs": [
+        "To maximize flexibility, our new dynamic option delivers peak performance for your most critical data while reducing total costs across your entire dataset. By consolidating into a single SKU, we provide predictable billing with the exact cost known upfront. Because all data resides within Lustre, you achieve ultra-low latency for hot data, and block-like latency for cold data. This will help eliminate bottlenecks in model loading, training, and high-frequency checkpointing when you bring your entire dataset to Managed Lustre."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Maximize GPU saturation and compute ROI",
+      "paragraphs": [
+        "The true cost of AI isn't just storage—it's idle compute. Managed Lustre delivers the high-throughput, low-latency data delivery required to keep your most expensive assets fully saturated. By optimizing data distribution and accelerating rapid checkpointing, you dramatically improve accelerator use, leading to reduced overhead and superior performance per dollar."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Performance and scale for AI/ML workloads",
+      "paragraphs": [
+        "Training large deep learning models requires massive datasets. Managed Lustre, based on DDN EXAScaler , distributes data access, reducing training times, enabling faster insights, better accuracy, and handling of complex AI projects. Its scalability is designed to performance keeps pace with growing data, preventing storage bottlenecks. Watch Omdia overview on Managed Lustre here ."
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/30c976fc-0201-4db1-9bcf-c8544b48ed69.png"
+      ]
+    },
+    {
+      "heading": "Accelerate AI inference with KV cache",
+      "paragraphs": [
+        "Agentic AI continues to drive large context windows and this may pose a storage challenge to give you with a responsive experience as they interact with Large Language Models. Large context windows increase latency sensitivity as the local memory on the accelerators is often exhausted, requiring the model to access external storage.",
+        "Read the blog: Reducing TCO for AI inferencing with external KV cache on Managed Lustre. View all features Powering innovation across industries",
+        "Eliminate data starvation and train foundation models at massive scale. By decoupling compute and storage, Managed Lustre boosts LLM inference throughput, with sub-millisecond external KV caching, keeping your most expensive accelerators fully saturated.",
+        "Explore AI at Google Cloud.",
+        "Healthcare and life sciences"
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/841f6eaf-98e6-4ffc-9aa4-cd520baa144c.jpg"
+      ]
+    },
+    {
+      "heading": "High-performance storage for AI. Instantly provision and scale cloud HPC on demand with Google Cloud Managed Lustre, powered by DDN EXAScaler.",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Get started",
+      "paragraphs": [
+        "Best for high-performance workloads want AI/ML training where throughput is critical.",
+        "Starting at $0.60 per GiB per month",
+        "Best for high-performance balance: Excellent for demanding AI/ML workloads, complex HPC applications, and data-intensive analytics that require substantial throughput but may benefit from a more balanced price-to-performance ratio.",
+        "Starting at $0.34 per GiB per month",
+        "Best for general purpose HPC and throughput-intensive AI: Suitable for a broad range of HPC workloads, AI/ML inference, data preprocessing, and applications that require significantly better performance than traditional NFS, at a cost-effective price point."
+      ],
+      "images": [
+        "https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/build/wght100fill1/20px.svg",
+        "https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/build/wght100fill1/20px.svg"
+      ]
+    },
+    {
+      "heading": "Pricing calculator",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Custom quote",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Start your proof of concept",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Get started with Managed Lustre",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Dig into the technical details",
+      "paragraphs": [],
+      "images": [
+        "https://www.gstatic.com/cgc/product-v3/proof-of-concept-blue.svg"
+      ]
+    },
+    {
+      "heading": "Explore Managed Lustre on Google Cloud",
+      "paragraphs": [],
+      "images": [
+        "https://www.gstatic.com/cgc/product-v3/proof-of-concept-yellow.svg"
+      ]
+    }
+  ],
+  "ctas": [
+    "View all features",
+    "Contact us",
+    "Console"
+  ],
+  "stylesheets": [
+    "https://fonts.googleapis.com/css2?family=Google+Sans+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700"
+  ],
+  "motion_libraries": []
+}

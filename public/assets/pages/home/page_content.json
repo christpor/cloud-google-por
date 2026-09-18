@@ -1,0 +1,112 @@
+{
+  "url": "https://cloud.google.com",
+  "route": "/",
+  "route_slug": "home",
+  "title": "AI and Cloud Computing Services | Google Cloud",
+  "description": "Meet your business challenges head on with AI and cloud computing services from Google, including security, data management, and hybrid & multi-cloud.",
+  "hero_h1": "The new way to cloud",
+  "sections": [
+    {
+      "heading": "Build with the cloud platform designed for developers and AI",
+      "paragraphs": [
+        "Try Google Cloud with free usage of over 20 products, plus new customers get $300 in free credits on signup.",
+        "Build AI agents and generative AI applications with our fully managed AI platform , over 200 foundation models, and ecosystem of AI partners",
+        "Improve customer service with virtual agents and conversational AI products like Speech-to-Text",
+        "Get AI-powered code generation, recommendations, and completion from Gemini Code Assist",
+        "Explore our ecosystem of Gemini products for businesses and developers —including Gemini Enterprise app —to help you get the most out of Google AI"
+      ],
+      "images": []
+    },
+    {
+      "heading": "Build and scale generative AI apps and agents with Gemini Enterprise Agent Platform",
+      "paragraphs": [
+        "Agent Platform is our fully-managed AI development platform to build and manage AI applications and agents, with access to Agent Studio and 200+ foundation models."
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/3055ad89-6743-4f0b-975a-933de101816f.png",
+        "https://www.gstatic.com/bricks/image/3055ad89-6743-4f0b-975a-933de101816f.png",
+        "https://www.gstatic.com/bricks/image/9cfdaee7-516a-453b-b05b-a90c17db3641.png"
+      ]
+    },
+    {
+      "heading": "AI innovation happens on Google Cloud",
+      "paragraphs": [
+        "Target modernized their data infrastructure using Google Cloud to improve advertising performance. ﻿",
+        "The Home Depot turns fragmented customer service into seamless journeys with Google Cloud",
+        "Volkswagen uses Gemini to power its virtual assistant in the myVW app, surfacing helpful information from the owner’s manual",
+        "Estée Lauder uses Gemini Enterprise to simplify internal processes, including language translations and writing ad copy",
+        "MLB compares live plays with its Statcast dataset in real time and shares fresh player insights using Gemini Enterprise and BigQuery"
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/ad2f9112-1a39-46f3-868a-958a39541995.jpg",
+        "https://www.gstatic.com/bricks/image/ENzJ2_oCSpfk_igh-eSyKqJLD9s7-fPI1tqrcupkalxv3lt99pFZ8Nqo1pL2N9_qZYXi7vpnnNmu.png",
+        "https://www.gstatic.com/bricks/image/d734b528-408f-409c-86a4-49e1b97cc6d1.png"
+      ]
+    },
+    {
+      "heading": "Solve your business problems with our industry solutions",
+      "paragraphs": [
+        "From improving retail product discovery to detecting bank fraud , our industry solutions tackle your biggest challenges.",
+        "9 / top 10 retail companies trust Google Cloud Best Buy uses Google Cloud generative AI to power its virtual assistants, freeing up their customer care agents to troubleshoot product issues, change order delivery and schedules, and manage subscriptions. Discover what you can do with our retail solutions."
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/0a44696f-75ce-4949-9529-af21543c8f82.jpg",
+        "https://www.gstatic.com/bricks/image/4a415f05-ff66-4667-9aaa-c34f5407999c.jpg",
+        "https://www.gstatic.com/bricks/image/cloud_google_com_images_icons_icn_retail_png.png"
+      ]
+    },
+    {
+      "heading": "Let’s start building your tomorrow, today",
+      "paragraphs": [],
+      "images": [
+        "https://www.gstatic.com/cgc/renaissance/image/MultiPath_Bottom_2X_Centered_static.png",
+        "https://www.gstatic.com/cgc/super_cloud_gradient.png"
+      ]
+    },
+    {
+      "heading": "Ask about Google Cloud",
+      "paragraphs": [],
+      "images": [
+        "https://www.gstatic.com/cgc/google-cloud-logo-fullcolor.svg",
+        "https://www.gstatic.com/cloud/images/navigation/forward.svg",
+        "https://www.gstatic.com/cloud/images/navigation/retail.svg"
+      ]
+    },
+    {
+      "heading": "Why Google",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Products and pricing",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Solutions",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Resources",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Engage",
+      "paragraphs": [],
+      "images": []
+    }
+  ],
+  "ctas": [
+    "pause",
+    "more_vert",
+    "collapse_content",
+    "Contact us",
+    "Console"
+  ],
+  "stylesheets": [
+    "https://fonts.googleapis.com/css2?family=Google+Sans+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700"
+  ],
+  "motion_libraries": []
+}

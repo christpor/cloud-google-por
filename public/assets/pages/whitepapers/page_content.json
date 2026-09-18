@@ -1,0 +1,95 @@
+{
+  "url": "https://cloud.google.com/whitepapers",
+  "route": "/whitepapers",
+  "route_slug": "whitepapers",
+  "title": "Google Cloud Whitepapers | Google Cloud",
+  "description": "In-depth whitepapers covering Google Cloud’s history and practical application.",
+  "hero_h1": "Google Cloud whitepapers",
+  "sections": [
+    {
+      "heading": "More from Google Cloud",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Filters",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Featured whitepapers",
+      "paragraphs": [
+        "Download popular whitepapers that are trending now."
+      ],
+      "images": []
+    },
+    {
+      "heading": "AI and ML",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Cloud basics",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Data analytics",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Databases",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Governance and cost management",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Hybrid and multicloud",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Industry",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Migration",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Modernization",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Networking",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Security",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Storage",
+      "paragraphs": [],
+      "images": []
+    }
+  ],
+  "ctas": [
+    "Contact us",
+    "Console"
+  ],
+  "stylesheets": [
+    "https://fonts.googleapis.com/css2?family=Google+Sans+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700"
+  ],
+  "motion_libraries": []
+}

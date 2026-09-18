@@ -1,0 +1,168 @@
+{
+  "url": "https://cloud.google.com/earth-engine",
+  "route": "/earth-engine",
+  "route_slug": "earth-engine",
+  "title": "Earth Engine | Google Cloud",
+  "description": "Become more sustainable by sourcing raw materials more responsibly and by analyzing and mitigating climate risks.",
+  "hero_h1": "Google Earth Engine",
+  "sections": [
+    {
+      "heading": "Analyze satellite imagery and geospatial data at planetary scale",
+      "paragraphs": [
+        "Improve sustainability and climate resilience decision-making with Earth Engine's curated geospatial data catalog and the large-scale computing and advanced AI of Google Cloud."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Product highlights",
+      "paragraphs": [
+        "A catalog of 90+ petabytes of analysis-ready geospatial data",
+        "Analyze Earth Observation data and run Machine Learning on it",
+        "Work in the JavaScript Code Editor or in Python",
+        "Explore deeper connectivity across Earth Engine and Cloud"
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/97a493e8-52cf-4d8b-b0d4-60131c259eb5.png"
+      ]
+    },
+    {
+      "heading": "Earth Engine in BigQuery",
+      "paragraphs": [
+        "Earth Engine capabilities are now available in BigQuery, making advanced geospatial analysis of satellite imagery accessible to the SQL community."
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/S7Gecp9wr93moTiwJAMzh2b3oeBmXknI0BvZ5Flc8t8RQv1nhf1B1JXeSr3YV_7yEYSjbbXY37Vd.png"
+      ]
+    },
+    {
+      "heading": "Earth Engine and BigQuery interoperability",
+      "paragraphs": [
+        "Earth Engine focuses on image (raster) processing, whereas BigQuery is optimized for processing large tabular datasets. Using BigQuery with Earth Engine, users get the best of both worlds. Earth Engine users can now easily move data between Earth Engine and BigQuery:"
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/iLJFCEkWTIo7ztAAHSALTPgK5KDJo0vmQsHbXhnrlk1ZoAI3ls_hIF9ZJkdexvr7tT7IiveXj7v4.png"
+      ]
+    },
+    {
+      "heading": "90+ petabytes of analysis-ready geospatial data",
+      "paragraphs": [
+        "The Earth Engine catalog is one of the largest publicly available data catalogs, with 90+ petabytes of analysis-ready satellite imagery and 1,000+ curated geospatial datasets. It includes 50+ years of historical imagery, updated and expanded daily, at resolutions as fine as one meter per pixel. Examples include Landsat , MODIS and Sentinel , the National Agriculture Imagery Program (NAIP) , climate and weather data, geophysical data, including terrain, land cover, and cropland data.",
+        "The catalog offers data on the entire planet, allowing users to understand earth changes relevant to their sustainability goals."
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/-Ao7QWXzlwdFjKBAgOR6b1CFWW7UDy2rpmZKGchIjaH_m_WXBnSGteZIDWvG_ScjjHXTTJEGQcI.png"
+      ]
+    },
+    {
+      "heading": "Powerful computation platform at scale",
+      "paragraphs": [
+        "Google Cloud empowers everyone to run large-scale parallel processing using many thousands of computers. Combining Earth Engine’s data catalog with Google Cloud’s computational capability and data analytics tools, makes Earth Engine a revolutionary platform to analyze and visualize earth data at scale.",
+        "Faster access, processing, and analysis of data means faster innovations, informed decisions, and viable solutions. The U.S. Forest Service, for example, manages 193 million acres of U.S. forest lands, reducing the time to complete mission critical tasks from months to hours with Earth Engine’s superior data catalog and computational scalability."
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/b33f50c6-3022-405c-9797-ffae7ba237e0.png"
+      ]
+    },
+    {
+      "heading": "Code Editor",
+      "paragraphs": [
+        "The Earth Engine Code Editor is a web-based coding environment designed to make developing complex geospatial workflows fast and easy with the following elements:"
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/qdYRHeyRgMZLNS6g-43IAHwf61G0JN5Wyb5o36e3AmAmvTCpvZg23QULgZXpzj5RlPINn_eBG02M.png"
+      ]
+    },
+    {
+      "heading": "Earth Engine Python API and Colab experience (geemap)",
+      "paragraphs": [
+        "Earth Engine Python API allows users to make use of Python tools for machine learning and analysis, including those for geospatial workloads, like Cloud Optimized GeoTiffs and GeoPandas.",
+        "The geemap Python library is supported in Earth Engine, for visual workflows in Python, like panning, zooming, and drawing map polygons for zonal statistics.",
+        "Xarray, a well-known Python package, enables working with multidimensional arrays. Xee , its Earth Engine integration, lets users work with Earth Engine ImageCollections as Xarray datasets."
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/oD6Fk9HtWq9UDMfhgwoH2j0T9xmaPIHaPEmCiaQv06uHOpkFEqEoThNG9cauVvN_HfvUvsxu3nU.png"
+      ]
+    },
+    {
+      "heading": "Earth Engine Machine Learning",
+      "paragraphs": [
+        "Earth Engine has built-in capabilities to allow users to train and use ML models for common scenarios with easy-to-use APIs. For instance, you can use a random forest algorithm to classify land in an area of interest. If you'd prefer to use a Deep Neural Network, you can also train a TensorFlow or PyTorch model, deploy it to Gemini Enterprise Agent Platform and get predictions from within the Earth Engine Code Editor."
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/7V5DqbiGGPMYrc9jHnzG_3J7R91twf2uVyoztVvLdl0E-CLhbJXM65Lw9crOX7L0SSf1vyKs3H0.png"
+      ]
+    },
+    {
+      "heading": "Import your own data for analysis with the Earth Engine data catalog",
+      "paragraphs": [
+        "Users can import their own data (images and tables) and combine them with datasets from the Earth Engine data catalog to derive insights. Using the Asset Manager in Code Editor or command line interface (CLI) , georeferenced raster datasets in GeoTIFF or TFRecord format and tabular data in Shapefile or CSV format can be imported to build data products, create models, and develop unique solutions to accelerate sustainability efforts."
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/JsDQ-bg1szszpgSOZZFYEnSWrYkqQmg0kBdqIm0EjNU3S3NzkJeBMYCI46o8eQSrH11WH271SZaw.png"
+      ]
+    },
+    {
+      "heading": "Export your results for integration into other systems",
+      "paragraphs": [
+        "If you're training a TensorFlow model or want to run hydrology simulations outside Earth Engine you might want to get data out of Earth Engine into another system . The Earth Engine export API does the heavy lifting and our data extraction methods help solve scaling issues and work with frameworks like Apache Beam, Spark, or Dask. Our Python client library comes bundled with client-side logic to convert between Earth Engine objects and NumPy, Pandas, and GeoPandas types."
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/SDafL4Z0zrhkYVsw-NOi08Zshed5DszNqQS6OxjTMbXJBTFiV4f7Owpe2fnqC-1knoav9t5aXyo.png"
+      ]
+    },
+    {
+      "heading": "Earth Engine Apps",
+      "paragraphs": [
+        "For code-free, interactive visualizations, Earth Engine Apps are dynamic, shareable user interfaces for Earth Engine analyses.",
+        "With Earth Engine Apps , developers can use simple UI elements to leverage Earth Engine's data catalog and analytical power, allowing stakeholders to interact with their data and delivering insights into the hands of decision-makers."
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/G_Y1-2tzdP3JLdfV6P0ngpddsq5U8nySnQf1BD9eY0oM3vwQbiBpNriQDQRyNmL_h-fK5rQRTbw.png"
+      ]
+    },
+    {
+      "heading": "Cloud Score+",
+      "paragraphs": [
+        "Cloud Score+ solves the issue of cloud cover in Sentinel-2 satellite data. It is a comprehensive QA score, powered by deep learning, which provides a per-pixel “usability” score to mask or weight observations based on overall quality."
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/6gbNVIvcEbzJktdMe2HK7tu0z6UwOfoFsN4ZBod0kXrJDZSjiMjTpSoRRTP9iw7KLdBXOA4E8nk.png"
+      ]
+    },
+    {
+      "heading": "Dynamic World",
+      "paragraphs": [
+        "Dynamic World is a global, near-real-time Land Cover dataset at a 10m resolution, powered by machine learning. It gives unprecedented detail about land use and helps make accurate predictions and effective sustainability plans.",
+        "Learn more about Dynamic World View all features How It Works"
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/6kE29Pvn_4CxYW5UcHJs5gBmHhuXZv3zB7a9Z5nHJt9urLMMjGE8iAa28tK-IP0k_a59N1ZadYiq.png"
+      ]
+    },
+    {
+      "heading": "Sustainable sourcing",
+      "paragraphs": [
+        "Enable global supply chain transparency and traceability",
+        "Sustainable supply chains are business critical. Earth Engine helps businesses analyze land cover and use at sourcing sites to highlight deforestation risk in their supply chains. The EC JRC global map of forest cover for 2020 is useful for this. A spatially explicit representation of forest presence/absence in 2020 at 10m resolution, this dataset corresponds to the EU Deforestation Regulation (EUDR), which will require companies to provide statements affirming goods sold or produced in the EU were not grown on land deforested after December 31, 2020.",
+        "TraceMark: First-mile driven traceability for raw materials",
+        "TraceMark , built by Google Cloud Advantage partner NGIS, uses Earth Engine to map the sourcing of raw materials and potential risk through global supply chains, providing comprehensive first-mile monitoring and end-to-end traceability insights.",
+        "TraceMark leverages leading frameworks and provides EU Deforestation Regulation (EUDR)-specific capabilities for risk mitigation and due diligence, including data exchange and engagement with suppliers, and sustainability metrics for reporting."
+      ],
+      "images": [
+        "https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/build/wght100fill1/20px.svg",
+        "https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/group/fill1/20px.svg",
+        "https://www.gstatic.com/bricks/image/jBYSehRkyJKT6gukhtaCxiN1kZztodcIThNJP44UD8oU3KQE7ji7jv3SAuu4Sa38I2aHT8h2AN4T.png"
+      ]
+    }
+  ],
+  "ctas": [
+    "View all features",
+    "Generate solution",
+    "Contact us",
+    "Console"
+  ],
+  "stylesheets": [
+    "https://fonts.googleapis.com/css2?family=Google+Sans+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700"
+  ],
+  "motion_libraries": []
+}

@@ -1,0 +1,101 @@
+{
+  "url": "https://cloud.google.com/sustainability",
+  "route": "/sustainability",
+  "route_slug": "sustainability",
+  "title": "Sustainability | Google Cloud",
+  "description": "Google Cloud reduces the environmental impact of cloud computing through innovative renewable energy purchasing and commitment.",
+  "hero_h1": "Cloud sustainability",
+  "sections": [
+    {
+      "heading": "Increase business resilience and sustainability with AI",
+      "paragraphs": [
+        "Google Cloud offers organizations a new way to drive impact. We help businesses improve measurement, increase resilience, use energy and resources more efficiently and unlock new growth opportunities. With smarter use of data and AI you can have a more sustainable impact."
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/ffd46a99-ec95-450e-b96d-625cb9479418.jpg",
+        "https://www.gstatic.com/bricks/image/CRilLudKLZt7NHH04w5nes7hB4XzLRPe8sxNC094lRfJVIO_hRvF2pkFQlycfMPw5zKXWerXXSUH.jpeg"
+      ]
+    },
+    {
+      "heading": "Measure",
+      "paragraphs": [
+        "Organizations can use AI-powered insights to monitor their progress towards sustainability targets, in order to build business resilience.",
+        "Use data and AI for:"
+      ],
+      "images": []
+    },
+    {
+      "heading": "Optimize",
+      "paragraphs": [
+        "Organizations can work more efficiently by using AI to streamline energy and resource usage across their operations and supply chains.",
+        "Our customers are optimizing for:"
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/ZsZg9JEQ3dQUvhyFom8PSnSJ7hsApW0MLlbSJf6N_Nc1USwjnhoVKO5eduxSAWpEsIYyHs22LKpR.jpeg",
+        "https://www.gstatic.com/bricks/image/cv9sH2m1ABpecJ_qU1Jng6ueQFoWG5xd8VmH1A0TnXkmflda1zeM_PAUnjP4iRhKC1aZzo8hPpMA-g.gif"
+      ]
+    },
+    {
+      "heading": "Grow",
+      "paragraphs": [
+        "Organizations can use AI to find new opportunities and markets in the low-carbon transition, with business models that unlock new forms of value.",
+        "Our customers are unlocking growth in:"
+      ],
+      "images": []
+    },
+    {
+      "heading": "Build",
+      "paragraphs": [
+        "Reduce the carbon footprint of your cloud-based applications with the Carbon Sense suite of tools:"
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/hXeDEsvKG9ZVl3n7EeKpLBlfGKFwbeb8Wnm1JxJUlHfSWrUxKT2KQYZGStxNOglzOKFKivM_Yu2O.jpeg"
+      ]
+    },
+    {
+      "heading": "Geospatial data and AI",
+      "paragraphs": [
+        "With Earth Engine and Google Cloud organizations can leverage planetary observation data with large-scale compute, helping them measure and analyze environmental change and enabling leaders to make informed decisions.",
+        "Tell us what you’re solving for. A Google Cloud expert will help you find the best solution."
+      ],
+      "images": [
+        "https://www.gstatic.com/cgc/google-cloud-logo-fullcolor.svg",
+        "https://www.gstatic.com/cloud/images/navigation/forward.svg",
+        "https://www.gstatic.com/cloud/images/navigation/retail.svg"
+      ]
+    },
+    {
+      "heading": "Why Google",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Products and pricing",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Solutions",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Resources",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Engage",
+      "paragraphs": [],
+      "images": []
+    }
+  ],
+  "ctas": [
+    "Contact us",
+    "Console"
+  ],
+  "stylesheets": [
+    "https://fonts.googleapis.com/css2?family=Google+Sans+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700"
+  ],
+  "motion_libraries": []
+}

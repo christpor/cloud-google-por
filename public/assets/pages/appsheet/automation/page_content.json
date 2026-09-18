@@ -1,0 +1,121 @@
+{
+  "url": "https://cloud.google.com/appsheet/automation",
+  "route": "/appsheet/automation",
+  "route_slug": "appsheet/automation",
+  "title": "AppSheet Automation | Google Cloud",
+  "description": "Reclaim time and talent with no-code apps and automation.",
+  "hero_h1": "AppSheet Automation",
+  "sections": [
+    {
+      "heading": "Focus on impact",
+      "paragraphs": [
+        "Reclaim time for high-impact work rather than manual tasks."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Reduce context switching",
+      "paragraphs": [
+        "Build automations and applications on a unified platform."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Improve collaboration",
+      "paragraphs": [
+        "Streamline processes, such as approvals and onboarding, across your organization."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Process automation",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Intelligent document processing",
+      "paragraphs": [
+        "Leverage the power of Google Cloud Document AI to automatically extract data from unstructured sources like W-9s and receipts to run processes more efficiently."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Data change events",
+      "paragraphs": [
+        "Configure bots to detect data changes on work in concert with external sources, such as Google Sheets and salesforce, to trigger processes and approvals."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Modularity",
+      "paragraphs": [
+        "Create automation bots from completely reusable components—events, processes, and tasks."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Seamless connectivity",
+      "paragraphs": [
+        "Connect directly with APIs, data sources, webhooks, and legacy software, or use data export to export, back up, or sync application data with external platforms."
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/yn-iTgxYPwG-pyAi2hX0DKGs6bqnOV7Sl69KNjY0UUpxu8FE59ITYX_ATaFzsR_dPrwO32CqSlW1zw.png"
+      ]
+    },
+    {
+      "heading": "Find resources and documentation for AppSheet Automation",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "AppSheet Automation: the essentials",
+      "paragraphs": [
+        "Explore the fundamentals of creating automations with no-code."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Creating a bot",
+      "paragraphs": [
+        "Automations begin with the configuration of a bot."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Not seeing what you’re looking for?",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Pricing",
+      "paragraphs": [
+        "Pricing for AppSheet is based on the number of users rather than the number of automations or applications. To learn more, click the link below or start creating AppSheet apps and automations for free .",
+        "Start building on Google Cloud with $300 in free credits and 20+ always free products."
+      ],
+      "images": [
+        "https://www.gstatic.com/cgc/google-cloud-logo-fullcolor.svg",
+        "https://www.gstatic.com/cloud/images/navigation/forward.svg",
+        "https://www.gstatic.com/cloud/images/navigation/retail.svg"
+      ]
+    },
+    {
+      "heading": "Why Google",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Products and pricing",
+      "paragraphs": [],
+      "images": []
+    }
+  ],
+  "ctas": [
+    "Generate solution",
+    "Contact us",
+    "Console"
+  ],
+  "stylesheets": [
+    "https://fonts.googleapis.com/css2?family=Google+Sans+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700"
+  ],
+  "motion_libraries": []
+}

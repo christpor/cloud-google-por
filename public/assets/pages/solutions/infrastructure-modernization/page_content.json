@@ -1,0 +1,59 @@
+{
+  "url": "https://cloud.google.com/solutions/infrastructure-modernization",
+  "route": "/solutions/infrastructure-modernization",
+  "route_slug": "solutions/infrastructure-modernization",
+  "title": "Modernize Your Cloud Infrastructure | Google Cloud",
+  "description": "Migrate your workloads, modernize your applications, and build the exact cloud infrastructure that works for your business.",
+  "hero_h1": "Infrastructure modernization",
+  "sections": [
+    {
+      "heading": "Need help getting started?",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Learn from our customers",
+      "paragraphs": [
+        "Start building on Google Cloud with $300 in free credits and 20+ always free products."
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/IZ0EJXeoTehWXsRgC7_uRGq42rqx4fB36BAJm-tQtwcPQ4INuGJRVxreRm5Jb-FBOQ--mU6cbKwc.jpeg",
+        "https://www.gstatic.com/bricks/image/f1BOflBVO3uy2xiqCDzICTxP2T5gNgvS0m8I03eWtANPKOSZPyVJ1sDg4HfvMjhKPI-OnZhusyZ9.jpeg",
+        "https://www.gstatic.com/bricks/image/sPcZzz8A-a-wRtbgdkFQFbTkGujd-aN5DSWFvKH3DBqM293gsUse_FgRmxHAVaug-MCo2zLGMa45.jpeg"
+      ]
+    },
+    {
+      "heading": "Why Google",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Products and pricing",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Solutions",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Resources",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Engage",
+      "paragraphs": [],
+      "images": []
+    }
+  ],
+  "ctas": [
+    "Contact us",
+    "Console"
+  ],
+  "stylesheets": [
+    "https://fonts.googleapis.com/css2?family=Google+Sans+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700"
+  ],
+  "motion_libraries": []
+}

@@ -1,0 +1,102 @@
+{
+  "url": "https://cloud.google.com/pricing/list",
+  "route": "/pricing/list",
+  "route_slug": "pricing/list",
+  "title": "Pricing per product | Google Cloud",
+  "description": "Learn the pricing details for each Google Cloud product.",
+  "hero_h1": "Price list",
+  "sections": [
+    {
+      "heading": "Navigate to",
+      "paragraphs": [
+        "Pricing calculator",
+        "Cost management tools",
+        "Pricing overview"
+      ],
+      "images": []
+    },
+    {
+      "heading": "Filters",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Popular products",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "AI and Machine Learning",
+      "paragraphs": [
+        "AI for Data Scientists",
+        "AI Building Blocks",
+        "AI Infrastructure",
+        "Contact us for more information and pricing on all other AI solutions."
+      ],
+      "images": []
+    },
+    {
+      "heading": "API Management",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Compute",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Containers",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Data Analytics",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Databases",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Developer Tools",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Healthcare and Life Sciences",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Hybrid and Multicloud",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Internet of Things (IoT)",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Management Tools",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Media and Gaming",
+      "paragraphs": [],
+      "images": []
+    }
+  ],
+  "ctas": [
+    "Contact us",
+    "Console"
+  ],
+  "stylesheets": [
+    "https://fonts.googleapis.com/css2?family=Google+Sans+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700"
+  ],
+  "motion_libraries": []
+}

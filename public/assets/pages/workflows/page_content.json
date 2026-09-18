@@ -1,0 +1,137 @@
+{
+  "url": "https://cloud.google.com/workflows",
+  "route": "/workflows",
+  "route_slug": "workflows",
+  "title": "Workflows | Google Cloud",
+  "description": "Serverless workflow orchestration of Google Cloud products and any HTTP-based APIs, including private endpoints and SaaS.",
+  "hero_h1": "Workflows",
+  "sections": [
+    {
+      "heading": "Simplify your architecture",
+      "paragraphs": [
+        "Stateful Workflows allow you to visualize and monitor complex service integrations without additional dependencies."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Incorporate reliability and fault tolerance",
+      "paragraphs": [
+        "Control failures with default or custom retry logic and error handling even when other systems fail—checkpointing every step to Spanner to help you keep track of progress."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Zero maintenance",
+      "paragraphs": [
+        "Scale as needed: There’s nothing to patch or maintain. Pay only when your workflows run, with no cost while waiting or inactive."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Key features",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Reliable workflow execution",
+      "paragraphs": [
+        "Cloud Run functions Connectors make Google Cloud services particularly easy to use by taking care of request formatting, retries and waiting to complete long-running operations."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Powerful execution control",
+      "paragraphs": [
+        "Use expressions and functions to transform response data and prepare request inputs. Automate conditions based on input and service responses. Specify retry policies and error handling. Wait for asynchronous operations and events with polling and callbacks."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Pay per use",
+      "paragraphs": [
+        "Only pay when workflows take steps.",
+        "BLOG Workflows, Google Cloud’s serverless orchestration engine Documentation"
+      ],
+      "images": [
+        "https://www.gstatic.com/bricks/image/6O-4z8F8pk3oG6Oj0jV2DoaUffU-c685o4tOLlhJYBdkwSIiAED9hIYUKD3Fx9dWwT3bhUVT8hwkBA.png"
+      ]
+    },
+    {
+      "heading": "Documentation",
+      "paragraphs": [],
+      "images": []
+    },
+    {
+      "heading": "Understand Workflows",
+      "paragraphs": [
+        "Discover the core concepts and key capabilities of Workflows in this product overview."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Workflows quickstarts",
+      "paragraphs": [
+        "Learn how to create, deploy, and execute a workflow using the Cloud Console,the gcloud command-line tool, or Terraform."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Workflows how-to guides",
+      "paragraphs": [
+        "Learn how to control the order of execution in a workflow, invoke services and make HTTP requests, wait using callbacks or polling, and create automated triggers."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Syntax overview",
+      "paragraphs": [
+        "Learn how to write workflows to call services and APIs, work with response data, and add conditions, retries, and error handling."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Not seeing what you’re looking for?",
+      "paragraphs": [
+        "Combine sequences of service invocations into reliable and observable workflows. For example, use a workflow to implement receipt processing in an expense application. When a receipt image is uploaded to a Cloud Storage bucket, Workflows sends the image to Document AI. After processing is complete, a Cloud Function determines whether approval is required. Finally, the receipt is made visible to users by adding an entry in a Firestore database.",
+        "Run line-of-business operations with Workflows. For example, automate order fulfillment and tracking with a workflow. After checking inventory, a shipment is requested from the warehouse and a customer notification is sent. The shipment is scanned when departing the warehouse, updating the workflow via a callback that adds tracking information to the order. Orders not marked as delivered within 30 days are escalated to customer service.",
+        "Implement batch and real-time data pipelines using workflows that sequence exports, transformations, queries, and machine learning jobs. Workflows connectors for Google Cloud services like BigQuery make it easy to perform operations and wait for completion. Cloud Scheduler integration makes it simple to run workflows on a recurring schedule.",
+        "Automate cloud infrastructure with workflows that control Google Cloud services. For example, schedule a monthly workflow to detect and remediate security compliance issues. Iterating through critical resources and IAM permissions, send required requests for approval renewal using a Cloud Function. Remove access for any permissions not renewed within 14 days."
+      ],
+      "images": []
+    },
+    {
+      "heading": "All features",
+      "paragraphs": [
+        "Workflows are automatically replicated across multiple zones and checkpoint state after each step, ensuring executions continue even after outages. Failures in other services are handled through default and customizable retry policies, timeouts, and custom error handling.",
+        "Specify workflows in YAML or JSON with named steps, making them easy to visualize, understand, and observe. These machine-readable formats support programmatic generation and parsing of workflows.",
+        "Wait for a given period to implement polling. Connectors provide blocking steps for many Google Cloud services with long-running operations. Simply write your steps and know each is complete before the next runs.",
+        "Workflow executions are low-latency, supporting both real-time and batch processing. Through Eventarc, workflows can be executed when events occur, such as when a file is uploaded to Cloud Storage or when a Pub/Sub message is published.",
+        "Create unique callback URLs inside your workflow. Then wait (with a configurable timeout of up to one year) for the URL to be called, receiving the HTTP request data in your workflow. Useful for waiting for external systems and implementing human-in-the-loop processes."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Pricing",
+      "paragraphs": [
+        "Pay-per-use, with an always-free tier, rounded up to the nearest 1,000 executed steps. Pay only for the executed steps in your workflow; pay nothing if your workflow doesn’t run. Use the Google Cloud Pricing Calculator for an estimate.",
+        "First 5,000 steps",
+        "Steps 5,000 to 100,000,000",
+        "$0.01 per increment of 1,000 steps",
+        "Steps after 100,000,000"
+      ],
+      "images": [
+        "https://www.gstatic.com/cgc/google-cloud-logo-fullcolor.svg",
+        "https://www.gstatic.com/cloud/images/navigation/forward.svg",
+        "https://www.gstatic.com/cloud/images/navigation/retail.svg"
+      ]
+    }
+  ],
+  "ctas": [
+    "Contact us",
+    "Console"
+  ],
+  "stylesheets": [
+    "https://fonts.googleapis.com/css2?family=Google+Sans+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700"
+  ],
+  "motion_libraries": []
+}

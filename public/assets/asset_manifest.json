@@ -1,0 +1,128 @@
+{
+  "target_url": "https://cloud.google.com",
+  "theme": "light",
+  "tokens": {
+    "theme": "light",
+    "luminance": 0.85,
+    "colors": {
+      "background_primary": "#FFFFFF",
+      "text_primary": "#0F172A",
+      "accent": "#116DFF"
+    },
+    "css_variables": {}
+  },
+  "assets": {
+    "https://www.gstatic.com/bricks/image/NtKc7pmlbt5E5YwQJFGjuVNVFKCX3Ot-2lqr5PbxCtxpRTLzYv6CmShxAZlajBFNhQ-bg5rU55Jd.png": "/assets/images/NtKc7pmlbt5E5YwQJFGjuVNVFKCX3Ot-2lqr5PbxCtxpRTLzYv6CmShxAZlajBFNhQ-bg5rU55Jd.png",
+    "https://www.gstatic.com/cgc/google-cloud-logo-fullcolor.svg": "/assets/images/google-cloud-logo-fullcolor.svg",
+    "https://www.gstatic.com/images/branding/productlogos/gemini_2025/v1/web-24dp/logo_gemini_2025_color_2x_web_24dp.png": "/assets/images/logo_gemini_2025_color_2x_web_24dp.png",
+    "https://www.gstatic.com/bricks/image/0a44696f-75ce-4949-9529-af21543c8f82.jpg": "/assets/images/0a44696f-75ce-4949-9529-af21543c8f82.jpg",
+    "https://www.gstatic.com/bricks/image/3055ad89-6743-4f0b-975a-933de101816f.png": "/assets/images/3055ad89-6743-4f0b-975a-933de101816f.png",
+    "https://www.gstatic.com/bricks/image/4a415f05-ff66-4667-9aaa-c34f5407999c.jpg": "/assets/images/4a415f05-ff66-4667-9aaa-c34f5407999c.jpg",
+    "https://www.gstatic.com/bricks/image/4bd07243-32b7-4fbd-ac4f-3d1b2e2db727.jpg": "/assets/images/4bd07243-32b7-4fbd-ac4f-3d1b2e2db727.jpg",
+    "https://www.gstatic.com/bricks/image/4e1059a0-f813-4560-9950-2f37c3f392af.png": "/assets/images/4e1059a0-f813-4560-9950-2f37c3f392af.png",
+    "https://www.gstatic.com/bricks/image/6ccb6f9f-7e6d-45cc-8dd8-c68466739e32.png": "/assets/images/6ccb6f9f-7e6d-45cc-8dd8-c68466739e32.png",
+    "https://www.gstatic.com/bricks/image/720624ce-2196-48d4-9963-a31aa86bdfbc.webp": "/assets/images/720624ce-2196-48d4-9963-a31aa86bdfbc.webp",
+    "https://www.gstatic.com/bricks/image/742800fe-293d-45ca-97fa-c0be7f27c74f.jpg": "/assets/images/742800fe-293d-45ca-97fa-c0be7f27c74f.jpg",
+    "https://www.gstatic.com/bricks/image/7d314619-e9c3-4cfd-9014-dc736b3e279d.png": "/assets/images/7d314619-e9c3-4cfd-9014-dc736b3e279d.png",
+    "https://www.gstatic.com/bricks/image/815b93b4-5341-4e5b-9989-8cfc232c524f.png": "/assets/images/815b93b4-5341-4e5b-9989-8cfc232c524f.png",
+    "https://www.gstatic.com/bricks/image/85dad96e-7ef0-427f-9a5e-58fd28f1f478.svg": "/assets/images/85dad96e-7ef0-427f-9a5e-58fd28f1f478.svg",
+    "https://www.gstatic.com/bricks/image/8sPT3O1vi2NJShhF_9vTQicjqjkhyeZ_cS_ZRMVD6k7I5cRIpG1Uru3Neo5T-zwbTZhWdlzlmyA-Jg.jpeg": "/assets/images/8sPT3O1vi2NJShhF_9vTQicjqjkhyeZ_cS_ZRMVD6k7I5cRIpG1Uru3Neo5T-zwbTZhWdlzlmyA-Jg.jpeg",
+    "https://www.gstatic.com/bricks/image/90d910a3-241b-4bf1-82ea-13ed78ce7cee.jpg": "/assets/images/90d910a3-241b-4bf1-82ea-13ed78ce7cee.jpg",
+    "https://www.gstatic.com/bricks/image/92f77d12-b28c-4449-9ae5-0fe6a60abbec.jpg": "/assets/images/92f77d12-b28c-4449-9ae5-0fe6a60abbec.jpg",
+    "https://www.gstatic.com/bricks/image/974a774b-c241-458c-993a-e5058bc105ec.svg": "/assets/images/974a774b-c241-458c-993a-e5058bc105ec.svg",
+    "https://www.gstatic.com/bricks/image/97c8d75d-3a11-4ca9-9d65-59ce91d71590.jpg": "/assets/images/97c8d75d-3a11-4ca9-9d65-59ce91d71590.jpg",
+    "https://www.gstatic.com/bricks/image/9a136c37-ee68-4a29-9ebe-17a92256fdf1.jpeg": "/assets/images/9a136c37-ee68-4a29-9ebe-17a92256fdf1.jpeg",
+    "https://www.gstatic.com/bricks/image/9b6e694b-84d5-4828-9dc8-73d1fd162723.jpg": "/assets/images/9b6e694b-84d5-4828-9dc8-73d1fd162723.jpg",
+    "https://www.gstatic.com/bricks/image/9cfdaee7-516a-453b-b05b-a90c17db3641.png": "/assets/images/9cfdaee7-516a-453b-b05b-a90c17db3641.png",
+    "https://www.gstatic.com/bricks/image/ENzJ2_oCSpfk_igh-eSyKqJLD9s7-fPI1tqrcupkalxv3lt99pFZ8Nqo1pL2N9_qZYXi7vpnnNmu.png": "/assets/images/ENzJ2_oCSpfk_igh-eSyKqJLD9s7-fPI1tqrcupkalxv3lt99pFZ8Nqo1pL2N9_qZYXi7vpnnNmu.png",
+    "https://www.gstatic.com/bricks/image/M6Td_UPX90F1qmH3j2YqUW3UWWo0u_wLyUzRRr0SmaZ2HK6iJV5rr-0kSEn07TlFFdR8CBTO2II.png": "/assets/images/M6Td_UPX90F1qmH3j2YqUW3UWWo0u_wLyUzRRr0SmaZ2HK6iJV5rr-0kSEn07TlFFdR8CBTO2II.png",
+    "https://www.gstatic.com/bricks/image/McXvXJHmGEzr4O-4N-OFwlOiZNBdpcL50X2Rayh1nKLyyPWwZ4oWoa2p7t13x-xMZbssjhl8BVI.png": "/assets/images/McXvXJHmGEzr4O-4N-OFwlOiZNBdpcL50X2Rayh1nKLyyPWwZ4oWoa2p7t13x-xMZbssjhl8BVI.png",
+    "https://www.gstatic.com/bricks/image/PML_NfbdNo1nlkb-kEgvF90xyR4Li2GNTpDrNm6V14GLS1MfUCMGED36dQ133ozevRlADKUImJtecQ.png": "/assets/images/PML_NfbdNo1nlkb-kEgvF90xyR4Li2GNTpDrNm6V14GLS1MfUCMGED36dQ133ozevRlADKUImJtecQ.png",
+    "https://www.gstatic.com/bricks/image/S4PWrTAnx4o7duvkgD80j_tu2N4XaWwuMIx23XIrSKSiyFpAbUNRLXcZw9aBu7LnRekIw4xIsSOt-Q.jpeg": "/assets/images/S4PWrTAnx4o7duvkgD80j_tu2N4XaWwuMIx23XIrSKSiyFpAbUNRLXcZw9aBu7LnRekIw4xIsSOt-Q.jpeg",
+    "https://www.gstatic.com/bricks/image/WAE3EtGkgDCFY_ExE0UcheV7SOQEmILfAXacrTMXgKK84QF9t097udvMiZX0WvLrokCeZVDbiQg.png": "/assets/images/WAE3EtGkgDCFY_ExE0UcheV7SOQEmILfAXacrTMXgKK84QF9t097udvMiZX0WvLrokCeZVDbiQg.png",
+    "https://www.gstatic.com/bricks/image/WQUsu5egTEcuX_i9vIfb_ExuIn82AiCOGEUrQXzfts6_MqUYmb5IF0U48Sxqiug-u-6GgmmPx1w.png": "/assets/images/WQUsu5egTEcuX_i9vIfb_ExuIn82AiCOGEUrQXzfts6_MqUYmb5IF0U48Sxqiug-u-6GgmmPx1w.png",
+    "https://www.gstatic.com/bricks/image/a1a1756c-0e64-47b9-b583-6eaf153269a3.webp": "/assets/images/a1a1756c-0e64-47b9-b583-6eaf153269a3.webp",
+    "https://www.gstatic.com/bricks/image/ad2f9112-1a39-46f3-868a-958a39541995.jpg": "/assets/images/ad2f9112-1a39-46f3-868a-958a39541995.jpg",
+    "https://www.gstatic.com/bricks/image/cloud_google_com_images_icons_icn_cpg_png.png": "/assets/images/cloud_google_com_images_icons_icn_cpg_png.png",
+    "https://www.gstatic.com/bricks/image/cloud_google_com_images_icons_icn_education_png.png": "/assets/images/cloud_google_com_images_icons_icn_education_png.png",
+    "https://www.gstatic.com/bricks/image/cloud_google_com_images_icons_icn_finance_png.png": "/assets/images/cloud_google_com_images_icons_icn_finance_png.png",
+    "https://www.gstatic.com/bricks/image/cloud_google_com_images_icons_icn_gaming_png.png": "/assets/images/cloud_google_com_images_icons_icn_gaming_png.png",
+    "https://www.gstatic.com/bricks/image/cloud_google_com_images_icons_icn_government_png.png": "/assets/images/cloud_google_com_images_icons_icn_government_png.png",
+    "https://www.gstatic.com/bricks/image/cloud_google_com_images_icons_icn_healthcare_png.png": "/assets/images/cloud_google_com_images_icons_icn_healthcare_png.png",
+    "https://www.gstatic.com/bricks/image/cloud_google_com_images_icons_icn_manufacturing_png.png": "/assets/images/cloud_google_com_images_icons_icn_manufacturing_png.png",
+    "https://www.gstatic.com/bricks/image/cloud_google_com_images_icons_icn_media_png.png": "/assets/images/cloud_google_com_images_icons_icn_media_png.png",
+    "https://www.gstatic.com/bricks/image/cloud_google_com_images_icons_icn_retail_png.png": "/assets/images/cloud_google_com_images_icons_icn_retail_png.png",
+    "https://www.gstatic.com/bricks/image/cloud_google_com_images_icons_icn_supply_chain_png.png": "/assets/images/cloud_google_com_images_icons_icn_supply_chain_png.png",
+    "https://www.gstatic.com/bricks/image/cloud_google_com_images_icons_icn_telecom_png.png": "/assets/images/cloud_google_com_images_icons_icn_telecom_png.png",
+    "https://www.gstatic.com/bricks/image/d734b528-408f-409c-86a4-49e1b97cc6d1.png": "/assets/images/d734b528-408f-409c-86a4-49e1b97cc6d1.png",
+    "https://www.gstatic.com/bricks/image/e5ea2372-3a1e-46fe-a0a2-a7c8b418b462.png": "/assets/images/e5ea2372-3a1e-46fe-a0a2-a7c8b418b462.png",
+    "https://www.gstatic.com/bricks/image/h9qgLBntJ2SDFfu5TuGbN_6bMxXA3tK0r1N3wd9OS84OORRofTgt519WY9A8g8wGpGsWTvCTH9aR.png": "/assets/images/h9qgLBntJ2SDFfu5TuGbN_6bMxXA3tK0r1N3wd9OS84OORRofTgt519WY9A8g8wGpGsWTvCTH9aR.png",
+    "https://www.gstatic.com/bricks/image/mLuPdtu1vrbpGY7HktkQsvaIlF9dLePrgAClnTTaPQPmyejl_sJiwfOvpECoHGkDFrrBriAbqM4.jpeg": "/assets/images/mLuPdtu1vrbpGY7HktkQsvaIlF9dLePrgAClnTTaPQPmyejl_sJiwfOvpECoHGkDFrrBriAbqM4.jpeg",
+    "https://www.gstatic.com/bricks/image/nRCBaOzyxZ64vPjhEPGW7w6ysAVWE5fRxrAXjmZCxCoF_pugV7EEvGCqcNWOBCZlu73HSyLwPAflKw.jpeg": "/assets/images/nRCBaOzyxZ64vPjhEPGW7w6ysAVWE5fRxrAXjmZCxCoF_pugV7EEvGCqcNWOBCZlu73HSyLwPAflKw.jpeg",
+    "https://www.gstatic.com/bricks/image/tTorqT5LYYZ81tFu5h6zIXNxn8XTW9osu-q-A5QXDqYQ7HWEpmABVTH1oDL-To7Dz3LMICxWAbEx.png": "/assets/images/tTorqT5LYYZ81tFu5h6zIXNxn8XTW9osu-q-A5QXDqYQ7HWEpmABVTH1oDL-To7Dz3LMICxWAbEx.png",
+    "https://www.gstatic.com/cgc/renaissance/image/MultiPath_2X_static.png": "/assets/images/MultiPath_2X_static.png",
+    "https://www.gstatic.com/cgc/renaissance/image/MultiPath_Bottom_2X_Centered_static.png": "/assets/images/MultiPath_Bottom_2X_Centered_static.png",
+    "https://www.gstatic.com/cgc/super_cloud_gradient.png": "/assets/images/super_cloud_gradient.png",
+    "https://www.gstatic.com/cloud/images/navigation/apigee.png": "/assets/images/apigee.png",
+    "https://www.gstatic.com/cloud/images/navigation/bigquery.png": "/assets/images/bigquery.png",
+    "https://www.gstatic.com/cloud/images/navigation/cloud-run.png": "/assets/images/cloud-run.png",
+    "https://www.gstatic.com/cloud/images/navigation/cloud-sql.png": "/assets/images/cloud-sql.png",
+    "https://www.gstatic.com/cloud/images/navigation/cloud-storage.png": "/assets/images/cloud-storage.png",
+    "https://www.gstatic.com/cloud/images/navigation/compute-engine.png": "/assets/images/compute-engine.png",
+    "https://www.gstatic.com/cloud/images/navigation/cpg.svg": "/assets/images/cpg.svg",
+    "https://www.gstatic.com/cloud/images/navigation/finance.svg": "/assets/images/finance.svg",
+    "https://www.gstatic.com/cloud/images/navigation/forward.svg": "/assets/images/forward.svg"
+  },
+  "videos": {
+    "https://www.gstatic.com/cgc/renaissance/video/MultiPath_2X_V2.webm": "/assets/videos/MultiPath_2X_V2.webm"
+  },
+  "fonts": [
+    {
+      "family": "Google Sans Text",
+      "weight": "400",
+      "file": "/assets/fonts/5aUo9-KzpRiLCAt4Unrc-xIKmCU5qE9GmU9GmRGyBaT8.woff2"
+    },
+    {
+      "family": "Google Sans Text",
+      "weight": "400",
+      "file": "/assets/fonts/5aUo9-KzpRiLCAt4Unrc-xIKmCU5qE9Gm09GmRGyBaT8.woff2"
+    },
+    {
+      "family": "Google Sans Text",
+      "weight": "400",
+      "file": "/assets/fonts/5aUo9-KzpRiLCAt4Unrc-xIKmCU5qE9Gpk9GmRGyBaT8.woff2"
+    },
+    {
+      "family": "Google Sans Text",
+      "weight": "400",
+      "file": "/assets/fonts/5aUo9-KzpRiLCAt4Unrc-xIKmCU5qE9GhE9GmRGyBaT8.woff2"
+    },
+    {
+      "family": "Google Sans Text",
+      "weight": "400",
+      "file": "/assets/fonts/5aUo9-KzpRiLCAt4Unrc-xIKmCU5qE9GjU9GmRGyBaT8.woff2"
+    },
+    {
+      "family": "Google Sans Text",
+      "weight": "400",
+      "file": "/assets/fonts/5aUo9-KzpRiLCAt4Unrc-xIKmCU5qE9GiE9GmRGyBaT8.woff2"
+    }
+  ],
+  "svgs": [
+    "/assets/svg/vector_00.svg",
+    "/assets/svg/vector_01.svg",
+    "/assets/svg/vector_02.svg",
+    "/assets/svg/vector_03.svg",
+    "/assets/svg/vector_04.svg",
+    "/assets/svg/vector_05.svg",
+    "/assets/svg/vector_06.svg",
+    "/assets/svg/vector_07.svg",
+    "/assets/svg/vector_08.svg",
+    "/assets/svg/vector_09.svg",
+    "/assets/svg/vector_10.svg",
+    "/assets/svg/vector_11.svg",
+    "/assets/svg/vector_12.svg",
+    "/assets/svg/vector_13.svg",
+    "/assets/svg/vector_14.svg"
+  ]
+}

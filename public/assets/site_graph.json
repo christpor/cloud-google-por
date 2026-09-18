@@ -1,0 +1,113 @@
+{
+  "origin": "https://cloud.google.com",
+  "start_url": "https://cloud.google.com",
+  "total_crawled": 15,
+  "detected_motion_engines": [],
+  "routes": [
+    {
+      "route": "/",
+      "slug": "home",
+      "title": "AI and Cloud Computing Services | Google Cloud",
+      "hero": "The new way to cloud",
+      "sections_count": 11
+    },
+    {
+      "route": "/bigquery",
+      "slug": "bigquery",
+      "title": "BigQuery | AI data platform | EDW",
+      "hero": "BigQuery",
+      "sections_count": 15
+    },
+    {
+      "route": "/config-connector/docs/overview",
+      "slug": "config-connector/docs/overview",
+      "title": "Config Connector overview | Google Cloud Documentation",
+      "hero": "Config Connector overview",
+      "sections_count": 7
+    },
+    {
+      "route": "/pricing/list",
+      "slug": "pricing/list",
+      "title": "Pricing per product | Google Cloud",
+      "hero": "Price list",
+      "sections_count": 15
+    },
+    {
+      "route": "/solutions/infrastructure-modernization",
+      "slug": "solutions/infrastructure-modernization",
+      "title": "Modernize Your Cloud Infrastructure | Google Cloud",
+      "hero": "Infrastructure modernization",
+      "sections_count": 7
+    },
+    {
+      "route": "/products/managed-lustre",
+      "slug": "products/managed-lustre",
+      "title": "Managed Lustre | Google Cloud",
+      "hero": "Google Cloud Managed Lustre",
+      "sections_count": 15
+    },
+    {
+      "route": "/solutions/risk-and-compliance-as-code",
+      "slug": "solutions/risk-and-compliance-as-code",
+      "title": "Risk and Compliance as Code | Google Cloud",
+      "hero": "Risk and compliance as code (RCaC)",
+      "sections_count": 15
+    },
+    {
+      "route": "/apigee",
+      "slug": "apigee",
+      "title": "Apigee API Management | Google Cloud",
+      "hero": "Apigee API Management",
+      "sections_count": 15
+    },
+    {
+      "route": "/earth-engine",
+      "slug": "earth-engine",
+      "title": "Earth Engine | Google Cloud",
+      "hero": "Google Earth Engine",
+      "sections_count": 15
+    },
+    {
+      "route": "/ai/gemini",
+      "slug": "ai/gemini",
+      "title": "Google AI Studio vs. Gemini Enterprise Agent Platform vs. Gemini Enterprise app | Google Cloud",
+      "hero": "The Gemini era for developers and businesses",
+      "sections_count": 11
+    },
+    {
+      "route": "/sustainability",
+      "slug": "sustainability",
+      "title": "Sustainability | Google Cloud",
+      "hero": "Cloud sustainability",
+      "sections_count": 11
+    },
+    {
+      "route": "/whitepapers",
+      "slug": "whitepapers",
+      "title": "Google Cloud Whitepapers | Google Cloud",
+      "hero": "Google Cloud whitepapers",
+      "sections_count": 15
+    },
+    {
+      "route": "/docs",
+      "slug": "docs",
+      "title": "Google Cloud Documentation",
+      "hero": "",
+      "sections_count": 15
+    },
+    {
+      "route": "/appsheet/automation",
+      "slug": "appsheet/automation",
+      "title": "AppSheet Automation | Google Cloud",
+      "hero": "AppSheet Automation",
+      "sections_count": 15
+    },
+    {
+      "route": "/workflows",
+      "slug": "workflows",
+      "title": "Workflows | Google Cloud",
+      "hero": "Workflows",
+      "sections_count": 15
+    }
+  ]
+}
